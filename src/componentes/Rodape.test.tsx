@@ -2,7 +2,6 @@ import { fireEvent, render, screen } from "@testing-library/react"
 import { RecoilRoot } from "recoil"
 import Rodape from "./Rodape"
 import { useListaParticipantes } from "../state/hooks/useListaParticipantes"
-import { useSorteador } from "../state/hooks/useSorteador"
 
 jest.mock('../state/hooks/useListaParticipantes', () => {
   return {
